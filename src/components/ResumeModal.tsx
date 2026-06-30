@@ -196,7 +196,7 @@ export default function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
                       </div>
                       <div className="flex justify-between items-baseline text-xs text-slate-700 font-medium mt-0.5">
                         <span className="font-bold text-slate-800">Full Stack Developer</span>
-                        <span className="text-slate-700 print-muted-text">Apr 2025 — May 2026</span>
+                        <span className="text-slate-700 print-muted-text">Mar 2025 — Apr 2026</span>
                       </div>
 
                       {/* Sub-module: ACET College */}
@@ -281,12 +281,12 @@ export default function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
 
                   <div className="grid grid-cols-1 gap-1.5 text-xs text-slate-700">
                     <div>
-                      <strong className="font-bold text-slate-950 w-36 inline-block">Programming Languages</strong>
-                      <span className="text-slate-700 print-muted-text">Java, Python</span>
+                      <strong className="font-bold text-slate-950 w-36 inline-block">Languages</strong>
+                      <span className="text-slate-700 print-muted-text">Java, J2EE, Python</span>
                     </div>
                     <div>
                       <strong className="font-bold text-slate-950 w-36 inline-block">Backend</strong>
-                      <span className="text-slate-700 print-muted-text">Spring Boot, REST API Development, Middleware Design</span>
+                      <span className="text-slate-700 print-muted-text">Spring Boot, REST API Design, Middleware, Microservices, Multithreading, OOP</span>
                     </div>
                     <div>
                       <strong className="font-bold text-slate-950 w-36 inline-block">Frontend</strong>
@@ -294,15 +294,27 @@ export default function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
                     </div>
                     <div>
                       <strong className="font-bold text-slate-950 w-36 inline-block">Databases</strong>
-                      <span className="text-slate-700 print-muted-text">MySQL (schema design, native queries, query optimisation), ChromaDB</span>
-                    </div>
-                    <div>
-                      <strong className="font-bold text-slate-950 w-36 inline-block">AI / ML</strong>
-                      <span className="text-slate-700 print-muted-text">LangChain, RAG, Sentence Transformers, Gemini API, Gradio</span>
+                      <span className="text-slate-700 print-muted-text">MySQL (schema design, native queries, optimisation), ChromaDB</span>
                     </div>
                     <div>
                       <strong className="font-bold text-slate-950 w-36 inline-block">Cloud & DevOps</strong>
-                      <span className="text-slate-700 print-muted-text">Docker, Kubernetes, AWS EC2, Nginx, Linux, Git, GitHub</span>
+                      <span className="text-slate-700 print-muted-text">Docker, Kubernetes, AWS EC2, Nginx, Jenkins, CI/CD, Git, GitHub, Linux</span>
+                    </div>
+                    <div>
+                      <strong className="font-bold text-slate-950 w-36 inline-block">Messaging / AI</strong>
+                      <span className="text-slate-700 print-muted-text">Kafka (familiar), LangChain, RAG, Sentence Transformers, Gemini API</span>
+                    </div>
+                    <div>
+                      <strong className="font-bold text-slate-950 w-36 inline-block">Testing</strong>
+                      <span className="text-slate-700 print-muted-text">JUnit 5, Mockito</span>
+                    </div>
+                    <div>
+                      <strong className="font-bold text-slate-950 w-36 inline-block">Networking</strong>
+                      <span className="text-slate-700 print-muted-text">TCP/IP, HTTP/HTTPS, REST, DNS</span>
+                    </div>
+                    <div>
+                      <strong className="font-bold text-slate-950 w-36 inline-block">Methodologies</strong>
+                      <span className="text-slate-700 print-muted-text">Agile, SDLC</span>
                     </div>
                   </div>
                 </div>

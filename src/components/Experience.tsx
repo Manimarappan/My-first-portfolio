@@ -15,7 +15,7 @@ export default function Experience() {
 
   const experienceData = {
     company: "Aroganam Technologies Pvt Ltd",
-    period: "Apr 2025 — May 2026",
+    period: "Mar 2025 — Apr 2026",
     role: "Full Stack Developer",
     location: "Coimbatore, Tamil Nadu",
     points: [

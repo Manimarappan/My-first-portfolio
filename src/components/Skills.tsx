@@ -39,6 +39,13 @@ export default function Skills() {
       description: "Mani's primary language. Extensively utilized in full-stack enterprise applications at Aroganam Technologies and IMF. Certified Full Stack Java Developer from JSpiders Institute."
     },
     {
+      name: "J2EE",
+      category: "Backend Core",
+      level: "Expert",
+      orbit: 1,
+      description: "Leveraged enterprise Java capabilities (Servlets, JSP, JDBC, JNDI) to build robust database connections and modular web architectures."
+    },
+    {
       name: "Spring Boot",
       category: "Backend Core",
       level: "Expert",
@@ -46,18 +53,39 @@ export default function Skills() {
       description: "Designed and developed 300+ secure RESTful APIs for the Indian Mountain Foundation (IMF) Web Application. Handled token authorization, exception hierarchies, and integrated JPA/Hibernate."
     },
     {
-      name: "REST API",
+      name: "REST API Design",
       category: "Backend Core",
       level: "Expert",
       orbit: 1,
       description: "Engineered high-concurrency endpoints with robust exception-handling, standardized JSON payloads, and clean resource routing."
     },
     {
-      name: "JPA/Hibernate",
+      name: "OOP",
+      category: "Backend Core",
+      level: "Expert",
+      orbit: 1,
+      description: "Applied design patterns (Singleton, Factory, Builder), polymorphism, inheritance, and SOLID principles to write clean, reusable, and maintainable backend code."
+    },
+    {
+      name: "Multithreading",
       category: "Backend Core",
       level: "Advanced",
       orbit: 1,
-      description: "Established robust object-relational mapping, eager/lazy loading parameters, and managed database transaction integrity."
+      description: "Configured concurrent executor pools, asynchronous processing, thread synchronization, and task scheduling for high-throughput background services."
+    },
+    {
+      name: "Microservices",
+      category: "Backend Core",
+      level: "Advanced",
+      orbit: 1,
+      description: "Designed decoupled, scalable architectures using service discovery, centralized configuration, API gateways, and inter-service communication paradigms."
+    },
+    {
+      name: "Middleware",
+      category: "Backend Core",
+      level: "Advanced",
+      orbit: 1,
+      description: "Established request interceptors, filters, security layers, logging pipelines, and unified response formatting for seamless data transformations."
     },
 
     // Orbit 2: Frontend & UI
@@ -89,14 +117,28 @@ export default function Skills() {
       orbit: 2,
       description: "Styled responsive, pixel-perfect user interfaces adhering to strict accessibility criteria and responsive design."
     },
+    {
+      name: "Agile",
+      category: "Methodologies",
+      level: "Advanced",
+      orbit: 2,
+      description: "Participated in daily stand-ups, sprint planning, backlog grooming, and retrospective meetings following strict Scrum frameworks."
+    },
+    {
+      name: "SDLC",
+      category: "Methodologies",
+      level: "Advanced",
+      orbit: 2,
+      description: "End-to-end involvement in software engineering cycles from requirement gathering and architectural layout to unit testing and deployment."
+    },
 
-    // Orbit 3: Database Systems
+    // Orbit 3: Database & Networking
     {
       name: "MySQL",
       category: "Database Systems",
       level: "Expert",
       orbit: 3,
-      description: "Designed database schemas, established relationships, and optimized complex JOIN queries to measurably reduce database response times."
+      description: "Designed robust database schemas, established relationships, optimized complex JOIN queries, and refactored native SQL queries to measurably reduce database response times."
     },
     {
       name: "ChromaDB",
@@ -111,6 +153,27 @@ export default function Skills() {
       level: "Expert",
       orbit: 3,
       description: "Normalized structural layouts for high-throughput databases ensuring referential integrity and strict field structures."
+    },
+    {
+      name: "TCP/IP",
+      category: "Networking Systems",
+      level: "Advanced",
+      orbit: 3,
+      description: "Deep understanding of the transport/internet layer protocol suite, socket connections, packet routing, and network diagnostics."
+    },
+    {
+      name: "HTTP/HTTPS",
+      category: "Networking Systems",
+      level: "Advanced",
+      orbit: 3,
+      description: "Managed secure communication, headers, cookies, status codes, REST handshakes, and SSL/TLS certificate configurations."
+    },
+    {
+      name: "DNS",
+      category: "Networking Systems",
+      level: "Advanced",
+      orbit: 3,
+      description: "Configured custom domain name resolution, record types (A, CNAME, TXT), and mapped domain paths to cloud infrastructures."
     },
 
     // Orbit 4: AI & ML
@@ -136,11 +199,25 @@ export default function Skills() {
       description: "Implemented semantic search frameworks to enrich LLM context with precise document facts, preventing hallucinations."
     },
     {
+      name: "Sentence Transformers",
+      category: "AI / ML & Engineering",
+      level: "Advanced",
+      orbit: 4,
+      description: "Generated precise semantic vector embeddings for document chunks using pre-trained sentence transformer models to match query contexts."
+    },
+    {
       name: "Gemini API",
       category: "AI / ML & Engineering",
       level: "Expert",
       orbit: 4,
       description: "Integrated Google Gemini LLMs to build secure PDF Q&A Chatbots. Enabled smart retrieval-augmented generation (RAG) capabilities with streaming responses."
+    },
+    {
+      name: "Kafka",
+      category: "AI / ML & Engineering",
+      level: "Proficient",
+      orbit: 4,
+      description: "Familiar with distributed event streaming, topic subscriptions, producers, and consumer groups to enable loose architectural coupling."
     },
 
     // Orbit 5: DevOps & Tooling
@@ -150,6 +227,13 @@ export default function Skills() {
       level: "Advanced",
       orbit: 5,
       description: "Containerized application architectures to ensure seamless development-to-production parity across multi-tier environments."
+    },
+    {
+      name: "Kubernetes",
+      category: "DevOps & Tooling",
+      level: "Advanced",
+      orbit: 5,
+      description: "Familiar with orchestrating container pods, defining service nodes, configuring ingress paths, and maintaining resilient deployments."
     },
     {
       name: "AWS EC2",
@@ -166,11 +250,25 @@ export default function Skills() {
       description: "Configured high-performance reverse proxies, load balancing, and secure SSL handshakes for enterprise applications."
     },
     {
-      name: "Linux",
+      name: "Jenkins",
       category: "DevOps & Tooling",
       level: "Advanced",
       orbit: 5,
-      description: "Extensive hands-on experience in server management, shell scripts, cron jobs, and background daemon execution."
+      description: "Set up automated build pipelines, integrated lint checks, and managed continuous deployments on cloud environments."
+    },
+    {
+      name: "CI/CD",
+      category: "DevOps & Tooling",
+      level: "Advanced",
+      orbit: 5,
+      description: "Designed continuous integration and delivery schedules to automate testing, build artifacts, and cloud staging workflows."
+    },
+    {
+      name: "Git",
+      category: "DevOps & Tooling",
+      level: "Expert",
+      orbit: 5,
+      description: "Proficient in distributed version control, complex merging strategies, resolving conflicts, rebase procedures, and commit history cleanup."
     },
     {
       name: "GitHub",
@@ -178,6 +276,27 @@ export default function Skills() {
       level: "Expert",
       orbit: 5,
       description: "Managed secure version control systems, pull requests, collaborative merging, and branch protection policies."
+    },
+    {
+      name: "Linux",
+      category: "DevOps & Tooling",
+      level: "Advanced",
+      orbit: 5,
+      description: "Extensive hands-on experience in server management, shell scripts, cron jobs, and background daemon execution."
+    },
+    {
+      name: "JUnit 5",
+      category: "DevOps & Tooling",
+      level: "Expert",
+      orbit: 5,
+      description: "Authored comprehensive automated unit test suites validating backend logical pathways, boundary parameters, and assertion validations."
+    },
+    {
+      name: "Mockito",
+      category: "DevOps & Tooling",
+      level: "Advanced",
+      orbit: 5,
+      description: "Isolated logical execution pathways by mocking persistent entities, simulating external dependencies, and verifying interaction counts."
     }
   ];
 
